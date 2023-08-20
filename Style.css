@@ -6,6 +6,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .carousel-container {
@@ -58,14 +59,16 @@ button:hover {
 
 .overlay {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* width: 95%; */
+    /* Adjust the width as needed */
+    /* max-width: 400px; */
+    /* Set a maximum width for responsiveness */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid black;
     text-align: center;
     color: white;
     font-size: 18px;
